@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<lexspd:doPublish xmlns:lexspd="http://usdoj.gov/leisp/lexs/publishdiscover/3.1" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:em="http://niem.gov/niem/domains/emergencyManagement/2.0" xmlns:fips_10-4="http://niem.gov/niem/fips_10-4/1.0" xmlns:i="http://niem.gov/niem/appinfo/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0" xmlns:im="http://niem.gov/niem/domains/immigration/2.0" xmlns:lexs="http://usdoj.gov/leisp/lexs/3.1" xmlns:lexslib="http://usdoj.gov/leisp/lexs/library/3.1" xmlns:lexscodes="http://usdoj.gov/leisp/lexs/codes/3.1" xmlns:lexsdigest="http://usdoj.gov/leisp/lexs/digest/3.1" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:nonauth="http://niem.gov/niem/nonauthoritative-code/1.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:scr="http://niem.gov/niem/domains/screening/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
+  <lexs:PublishMessageContainer> 
+    <lexs:PublishMessage> 
+    
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>Incident Report</lexs:DataItemCategoryText> 
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:IncidentReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" />
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>  
+      
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>NOT Incident Report</lexs:DataItemCategoryText> <!-- ERROR: Should be Incident Report -->
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:IncidentReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" />
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>  
+      
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>Missing Person Report</lexs:DataItemCategoryText> 
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:MissingPersonReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" />
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>  
+
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>NOT Missing Person Report</lexs:DataItemCategoryText> <!-- ERROR: Not Missing Person Report -->
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:MissingPersonReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" /> 
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>  
+      
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>Arrest Report</lexs:DataItemCategoryText> 
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:ArrestReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" />
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>  
+
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>NOT Arrest Report</lexs:DataItemCategoryText> <!-- ERROR: Not Arrest Report -->
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:ArrestReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" /> 
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>  
+      
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>Service Call Report</lexs:DataItemCategoryText> 
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:ServiceCallReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" />
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>  
+
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>NOT Service Call Report</lexs:DataItemCategoryText> <!-- ERROR: Not Service Call Report -->
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:ServiceCallReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" /> 
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>
+      
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText>Information Report</lexs:DataItemCategoryText>
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:InformationReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" /> 
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>
+      
+      <lexs:DataItemPackage> 
+        <lexs:PackageMetadata> 
+          <lexs:DataItemCategory> 
+            <lexs:DataItemCategoryText></lexs:DataItemCategoryText>
+          </lexs:DataItemCategory> 
+        </lexs:PackageMetadata>
+        <!--======================= N-DEx Data ======================-->  
+        <lexs:StructuredPayload> 
+          <lexs:StructuredPayloadMetadata> 
+            <lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2</lexs:CommunityURI>  
+            <lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>  
+            <lexs:CommunityVersion>2.2</lexs:CommunityVersion> 
+          </lexs:StructuredPayloadMetadata>  
+          <ndexia:InformationReport xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.2" /> 
+        </lexs:StructuredPayload>  
+      </lexs:DataItemPackage>
+      
+    </lexs:PublishMessage> 
+  </lexs:PublishMessageContainer> 
+</lexspd:doPublish>
